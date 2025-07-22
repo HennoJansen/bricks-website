@@ -1,6 +1,6 @@
-# BRICKS Website
+# BRIX INVEST Website
 
-BRICKS is a modern, professional real estate investment platform that allows users to invest in vetted property shares starting from just R5000.
+BRIX INVEST is a modern, professional real estate investment platform that allows users to invest in vetted property shares starting from just R5000.
 
 ## Features
 
