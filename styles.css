@@ -1334,7 +1334,7 @@ a:hover {
 /* === Mobile Hamburger Menu === */
 @media (max-width: 768px) {
   .header {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     /* Slimmer header */
   }
 
@@ -1390,4 +1390,5 @@ a:hover {
     font-size: 1.1rem;
   }
 }
+
 
