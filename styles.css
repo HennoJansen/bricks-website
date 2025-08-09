@@ -1376,4 +1376,18 @@ a:hover {
     padding: 0.75rem 0;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
+
+  .hero {
+    height: auto;         /* let it grow naturally */
+    padding: 3rem 1rem;   /* keep good spacing */
+    background-size: cover;
+    background-position: center;
+  }
+  .hero-text-bg h2 {
+    font-size: 1.6rem;    /* smaller for mobile */
+  }
+  .hero-text-bg p {
+    font-size: 1.1rem;
+  }
 }
+
