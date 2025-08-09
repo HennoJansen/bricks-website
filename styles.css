@@ -1334,11 +1334,10 @@ a:hover {
 /* === Mobile Hamburger Menu === */
 @media (max-width: 768px) {
   .header {
-    padding: 0.5rem 0.5rem;
-    /* Slimmer header */
+    padding: 0.5rem 1rem; /* Slimmer header */
   }
 
-  /* Keep logo + icon side by side */
+  /* Logo + icon in one row */
   .logo-and-toggle {
     display: flex;
     align-items: center;
@@ -1355,6 +1354,7 @@ a:hover {
     cursor: pointer;
   }
 
+  /* Nav menu hidden until toggled */
   .nav-links {
     display: flex;
     flex-direction: column;
@@ -1377,18 +1377,29 @@ a:hover {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
 
+  /* Hero adjustments */
   .hero {
-    height: auto;         /* let it grow naturally */
-    padding: 3rem 1rem;   /* keep good spacing */
+    height: auto;           /* Let hero grow naturally */
+    padding: 6rem 1rem 3rem; /* Push down so it's fully below header */
     background-size: cover;
     background-position: center;
   }
+
   .hero-text-bg h2 {
-    font-size: 1.6rem;    /* smaller for mobile */
+    font-size: 1.6rem;
   }
+
   .hero-text-bg p {
     font-size: 1.1rem;
   }
 }
+
+/* Desktop/tablet hero padding to clear header */
+@media (min-width: 769px) {
+  .hero {
+    padding-top: 8rem; /* Ensures hero content clears sticky header */
+  }
+}
+
 
 
