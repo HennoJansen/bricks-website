@@ -4,6 +4,10 @@ html {
   scroll-behavior: smooth;
 }
 
+#about, #marketplace, #how-it-works, #vetting, #contact {
+  scroll-margin-top: 100px;
+}
+
 /* Fade in animation */
 .fade-in {
   animation: fadeIn 1s ease-in-out both;
@@ -1399,6 +1403,7 @@ a:hover {
     font-size: 1.1rem;
   }
 }
+
 
 
 
