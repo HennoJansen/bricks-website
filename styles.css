@@ -1400,12 +1400,6 @@ a:hover {
   }
 }
 
-/* Desktop/tablet hero padding to clear header */
-@media (min-width: 769px) {
-  .hero {
-    padding-top: 8rem; /* Ensures hero content clears sticky header */
-  }
-}
 
 
 
