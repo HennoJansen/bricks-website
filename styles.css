@@ -1235,6 +1235,10 @@ a:hover {
   /* Pulls the paragraph up */
 }
 
+.menu-toggle {
+  display: none;
+}
+
 /* ==================== MOBILE STYLES ==================== */
 @media (max-width: 768px) {
 
@@ -1335,6 +1339,7 @@ a:hover {
 @media (max-width: 768px) {
   .header {
     padding: 0.5rem 1rem; /* Slimmer header */
+    height: 50px; /* adjust if needed */
   }
 
   /* Logo + icon in one row */
@@ -1346,12 +1351,13 @@ a:hover {
   }
 
   .menu-toggle {
-    display: block;
+    display: block; /* show hamburger button only on mobile */
+    cursor: pointer;
+    font-size: 2rem;
     background: none;
     border: none;
-    font-size: 2rem;
-    color: white;
-    cursor: pointer;
+    color: #333; /* or your desired color */
+    padding: 0 0.5rem;
   }
 
   /* Nav menu hidden until toggled */
@@ -1400,6 +1406,7 @@ a:hover {
     padding-top: 8rem; /* Ensures hero content clears sticky header */
   }
 }
+
 
 
 
